@@ -133,6 +133,24 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.1.vendor
 
+# OMX
+PRODUCT_PACKAGES += \
+    libffmpeg_omx \
+    libMtkOmxAdpcmDec \
+    libMtkOmxAdpcmEnc \
+    libMtkOmxAlacDec \
+    libMtkOmxApeDec \
+    libMtkOmxCore \
+    libMtkOmxG711Dec \
+    libMtkOmxGsmDec \
+    libMtkOmxMp3Dec \
+    libMtkOmxRawDec \
+    libMtkOmxVdecEx \
+    libMtkOmxVenc \
+    libMtkOmxVorbisEnc \
+    libMtkOmxWmaDec \
+    libMtkOmxWmaProDec
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
